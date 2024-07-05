@@ -1,0 +1,180 @@
+/*sidebar.css*/
+.sidebar {
+    background-color: #181818;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .menu li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #888888;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li:hover, .menu .active {
+    background-color: #333333;
+    color: white;
+  }
+  
+
+  
+
+
+  .active {
+    background-color: #929191; /* Example background color for active menu items */
+    font-weight: bold; /* Example styling for active menu items */
+    /* Add any other styles you want for active menu items */
+  }
+  
+
+
+
+
+
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .menu li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #888888;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li:hover, .menu li.active {
+    background-color: #333333;
+    color: white;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: auto; /* Pushes the footer menu items to the bottom */
+  }
+  
+  .footer-menu li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #888888;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-menu li:hover, .footer-menu li.active {
+    background-color: #333333;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+  .sidebar {
+    background-color: #181818;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .menu ul, .footer-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li, .footer-menu li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #888888;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li:hover, .menu .active, .footer-menu li:hover, .footer-menu .active {
+    background-color: #333333;
+    color: white;
+  }
+  
+
+
+  .sidebar {
+    background-color: #181818;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .menu li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #888888;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li:hover, .menu li.active {
+    background-color: #333333;
+    color: white;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: auto;
+  }
+  
+  .footer-menu li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #888888;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-menu li:hover, .footer-menu li.active {
+    background-color: #333333;
+    color: white;
+  }
+  

@@ -1,0 +1,53 @@
+.settings-content {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-content p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .settings-content ul {
+    list-style: none;
+  }
+  
+
+
+
+
+
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .tab-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .tab-navigation button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .tab-navigation button.active {
+    font-weight: bold;
+    border-bottom: 2px solid #333; /* Example of active tab indicator */
+  }
+  
+  .tab-content {
+    padding: 10px;
+  }
+  
+
+
+
+
+  
